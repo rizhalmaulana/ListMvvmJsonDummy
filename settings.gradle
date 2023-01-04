@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    plugins {
+        id 'com.android.application' version '1.7.0'
+        id 'org.jetbrains.kotlin.kapt' version '1.7.0'
+        id 'org.jetbrains.kotlin.android' version '1.7.0'
+        id 'org.jetbrains.kotlin.android.extensions' version '1.7.0'
+    }
+}
+rootProject.name = "ListDataProject"
+include ':app'
